@@ -1,0 +1,22 @@
+  /*
+  Theme Name: Monito
+  Text Domain: Monito
+  Description: Custom them for Monito
+  Tags: responsive, web, custom
+  Author: Dominykas Luksys
+  Author URI: https://github.com/DominykasLuk/
+  */
+  ul.navbar-nav.ms-auto.py-4.py-lg-0 a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) { 
+  ul.navbar-nav.ms-auto.py-4.py-lg-0 a {
+    color: #000;
+  }
+}
